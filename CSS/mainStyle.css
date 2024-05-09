@@ -271,7 +271,6 @@ header {
 	-ms-flex-pack: center;
 	justify-content: center;
  width: 100%;
-	height: 100vh;
     background: #8abf6f;
     background: -moz-linear-gradient(-45deg, #8abf6f 0%, #328c33 100%);
     background: -webkit-linear-gradient(-45deg, #8abf6f 0%, #328c33 100%);

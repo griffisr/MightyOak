@@ -592,8 +592,8 @@ background: linear-gradient(135deg, #8abf6f 0%, #328c33 100%);
 /* Testimonial Section
 ********************************************************************* */
 #testimonial {
-	background-color: #F5F5F5;
-	padding: 100px 0 100px 0;
+	min-height: max-content;
+	padding: 100px 0 10vh 0;
 }
 .quoteLoop {
 	height: auto;
@@ -611,7 +611,7 @@ background: linear-gradient(135deg, #8abf6f 0%, #328c33 100%);
 /* Contact Section
 ********************************************************************* */
 #contact {
-	padding: 100px 0 100px 0;
+	padding: 5vh 0 5vh 0;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;

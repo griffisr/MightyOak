@@ -255,7 +255,7 @@ a {
 	color: #328c33;
 }
 a:hover {
-	color: #0FA0CE;
+	color: #8abf6f;
 }
 /* Header Section
 ********************************************************************* */
@@ -309,7 +309,7 @@ header {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: 50px;
+	margin-top: 0%;
 }
 
 @media only screen and (max-height: 700px) {
@@ -432,70 +432,12 @@ nav ul a:hover {
 	background: #000000;
 	display: block;
 }
-.scroll-down {
-	position: absolute;
-	left: 50%;
-	bottom: 5vh;
-	display: block;
-	text-align: center;
-	font-size: 20px;
-	z-index: 100;
-	text-decoration: none;
-	text-shadow: 0;
-	width: 13px;
-	height: 13px;
-	border-bottom: 2px solid #fff;
-	border-right: 2px solid #fff;
-	z-index: 9;
-	-webkit-transform: translate(-50%, 0%) rotate(45deg);
-	-moz-transform: translate(-50%, 0%) rotate(45deg);
-	transform: translate(-50%, 0%) rotate(45deg);
-	-webkit-animation: fade_move_down 2s ease-in-out infinite;
-	-moz-animation: fade_move_down 2s ease-in-out infinite;
-	animation: fade_move_down 2s ease-in-out infinite;
-}
 
 
-/*animated scroll arrow animation*/
-@-webkit-keyframes fade_move_down {
- 0% {
--webkit-transform:translate(0, -10px) rotate(45deg);
-opacity: 0;
-}
- 50% {
-opacity: 1;
-}
- 100% {
--webkit-transform:translate(0, 10px) rotate(45deg);
-opacity: 0;
-}
-}
-@-moz-keyframes fade_move_down {
- 0% {
--moz-transform:translate(0, -10px) rotate(45deg);
-opacity: 0;
-}
- 50% {
-opacity: 1;
-}
- 100% {
--moz-transform:translate(0, 10px) rotate(45deg);
-opacity: 0;
-}
-}
-@keyframes fade_move_down {
- 0% {
-transform:translate(0, -10px) rotate(45deg);
-opacity: 0;
-}
- 50% {
-opacity: 1;
-}
- 100% {
-transform:translate(0, 10px) rotate(45deg);
-opacity: 0;
-}
-}
+
+
+
+
 
 /* Team Section
 ********************************************************************* */
@@ -815,7 +757,7 @@ button, .button {
 input, textarea, select, fieldset {
 	margin-bottom: 1.5rem;
 }
-pre, blockquote, dl, figure, table, p, ul, ol, form {
+pre, blockquote, dl, figure, table, ul, ol, form {
 	margin-bottom: 2.5rem;
 }
 /* Utilities
@@ -857,3 +799,27 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
     background: linear-gradient(135deg, #8abf6f 0%, #328c33 100%);
 	margin-bottom: 50px;
 }
+
+
+.range-header{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+  /*Desktop*/
+  @media only screen and (min-width: 767px) {
+
+	.range-header{
+		justify-content: center;
+	}
+
+    }
+ /*Mobile*/
+  @media only screen and (max-width: 766px) {
+
+	.range-header{
+		justify-content: flex-end;
+	}
+
+    }

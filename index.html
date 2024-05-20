@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
   <link rel='stylesheet' id='foundation-icons-css'  href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css?ver=2.4.2.2' media='all' />
-  <!--Initialize jquery-->
+
   
 
 <!-- jQuery -->
@@ -38,6 +38,7 @@
 
 <!--My Styles-->
 <link rel="stylesheet" href="CSS/mainStyle.css">
+<link rel="stylesheet" href="CSS/landing-page.css">
 
 
 
@@ -59,7 +60,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <header id="header">
-    <div class="main_nav">
+    <div class="main_nav sticky">
       <div class="container">
         <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
         <nav>
@@ -79,8 +80,8 @@
 
 
 
-<!--------------------Video Section--------------------------->
-<section class="hero-section position-relative">
+<!--------------------Video Section------------------------
+<section class="hero-section position-relative video-section">
     <video src="https://s3.amazonaws.com/rileyg.me/MightyOak/videos/trim-clip-2.mp4" autoplay loop muted playsinline></video>
     <div class="overlay position-absolute d-flex align-items-center justify-content-center font-weight-bold text-white h2 mb-0">
            
@@ -99,109 +100,115 @@
     <svg class="position-absolute w-100">
       <use xlink:href="#one"></use>
     </svg>
-  </section>
+  </section>--->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <a class="smoothscroll" href="#course">
+    <!--<a class="smoothscroll" href="#course">
     <div class="scroll-down"></div>
-    </a> </header>
+    </a> -->
+   </header>
     
 
+   <div class="parallax">
   
-  
-  <!-- Portfolio Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-  
-  <section id="course">
-    <div class="container">
-      <h1>Work</h1>
-      <div class="block"></div>
-      <div class="row">
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work One"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Two"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Three"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Four"/></div>
+    <div class="first">
+      <div class="container">
+        <div class="title">
+          <img class="hero-img" src="/Images/png/logo.png"></img>
+          <div class="smallsep heading"></div>
+          <h1 class="header-text">Par 3 Course &amp; Range</h1>
+        </div>
+        
       </div>
-      <div class="row" style="margin-top: 30px;">
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Five"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Six"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Seven"/></div>
-        <div class="three columns"> <img src="http://placehold.it/220x220" class="image" alt="Work Eight"/></div>
-      </div>
+
+
+
+
+
+
+
+      <a class="smoothscroll" href="#feature-items">
+      <div class="scroll-down"></div>
+      </a>
     </div>
-  </section>
+  
+    <div class="bg_foreground">
+      <div class="landing-text">
+        <p class="section__intro">Welcome to Mighty Oak Golf Course, a charming, family-run par 3, 9-hole gem nestled in Brooklyn, Michigan. Formerly known as Silver Lake Golf Course, our course offers a welcoming atmosphere with 
+          beautifully maintained fairways and mature trees. Whether you're perfecting your swing at our driving range or enjoying a leisurely round with family and friends, Mighty Oak provides a delightful golfing 
+          experience for players of all skill levels. Join us and discover the joy of golf in a serene and picturesque setting.</p>
+      </div>
+     
+
+    </div>
+  
+    <div class="bg_background" id="feature-items">
+      <section class="section landing-card-section">
+        <div class="wrapper">
+          <div class="box__grid">
+
+
+
+
+
+
+            <article class="box">
+              <a class="box__content" href="about-us.html">
+                <h3 class="box__title">ABOUT US</h3>
+               
+                <p>Get to know the story behind Mighty Oak Golf Course. </p>
+                <span class="box__more">READ MORE <i class="material-icons">double_arrow</i></span>
+              </a>
+            </article>
+
+            <article class="box">
+              <a class="box__content" href="driving-range.html">
+                <h3 class="box__title">DRIVING RANGE</h3>
+                <p>Warm up at our driving range before your round..</p>
+                <span class="box__more">GET STARTED <i class="material-icons">double_arrow</i></span>
+              </a>
+            </article>
+
+            <article class="box">
+              <a class="box__content" href="events.html">
+                <h3 class="box__title">EVENTS</h3>
+                <p>Join us for upcoming tournaments and special events.</p>
+                <span class="box__more">SEE EVENTS <i class="material-icons">double_arrow</i></span>
+              </a>
+            </article>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  </div>
+  
+
   
   <!-- Testimonials Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
   
-  <section id="testimonial">
-    <div class="container">
-      <div class="quoteLoop">
-        <blockquote class="quote"> <img src="http://placehold.it/100x100" width="100" height="100" alt=""/>
-          <h5>&nbsp;<br>
-            &rdquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;<br>
-            <small>Steve Bruce, Sed ut perspiciatis unde omnis</small></h5>
-        </blockquote>
-        <blockquote class="quote"> <img src="http://placehold.it/100x100" width="100" height="100" alt=""/>
-          <h5>&nbsp;<br>
-            &ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&rdquo;<br>
-            <small>Tom Jones, Sed ut perspiciatis unde omnis</small></h5>
-        </blockquote>
-      </div>
-    </div>
-  </section>
+
   
-  <!-- Contact Section
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <!-- Photos Section
+  ––––––––––––––––––––––––––––––––––––––––––––––
   
-  <section id="contact">
-    <div class="container">
-      <h1>Contact</h1>
-      <div class="block"></div>
-      <form>
-        <div class="row">
-          <div class="six columns">
-            <label for="exampleRecipientInput">Name</label>
-            <input class="u-full-width" type="text">
-          </div>
-          <div class="six columns">
-            <label for="exampleEmailInput">Email</label>
-            <input class="u-full-width" type="email">
-          </div>
-        </div>
-        <div class="row">
-          <label for="exampleMessage">Message</label>
-          <textarea class="u-full-width"></textarea>
-          <input class="button-primary" type="submit" value="Submit">
-        </div>
-      </form>
+  <section id="course-photos">
+   <div class="imgLoop">
+      <blockquote class="img-holder">  <img class="rolling-img course-photo" src="https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/Driving-Range3.png" alt=""/> 
+      </blockquote>
+      <blockquote class="img-holder">  <img class="rolling-img course-photo" src="https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/Driving-Range2.png" alt=""/>
+      </blockquote>
+      <blockquote class="img-holder">  <img class="rolling-img course-photo" src="https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/Driving-Range.png" alt=""/>
+      </blockquote>
     </div>
-  </section>
+
+    
+  
+  </section> -->  
+
+
   
   <!-- Footer Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->  

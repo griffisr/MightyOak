@@ -45,4 +45,8 @@ header{
         object-fit: cover;
       }
 
+      .video-section{
+        height: 70vh;
+      }
+
     }

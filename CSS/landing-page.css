@@ -166,7 +166,7 @@ header{
     background-position: bottom center;
     background-size: cover;
     border: 1px solid;
-      background-image: url(https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/hole+2.png);
+      background-image: url(https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/hole+2-min.png);
   }
 
   
@@ -178,7 +178,7 @@ header{
   .bg_background {
     background-position: top right;
     height: 50vh;
-     background-image: url(https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/hole+9.png);
+     background-image: url(https://s3.amazonaws.com/rileyg.me/MightyOak/Images/png/hole+9-min.png);
   }
 
   .header-text{
